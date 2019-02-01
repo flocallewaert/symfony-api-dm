@@ -1,0 +1,6 @@
+#home:
+#    path: /
+#    controller: App\Controller\HomeController::home
+users:
+  type: rest
+  resource: App\Controller\UsersController
